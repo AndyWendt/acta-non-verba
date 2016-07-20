@@ -8,7 +8,7 @@ The assertion and dumping libraries require a composer installation.
  
 ## Comments
 
-* If I was going to consume an actual API response, I would most likely implement a more reusable system utilizing reverse 
+* If I were going to consume an actual API response, I would most likely implement a more reusable system utilizing reverse 
 entity transformers similar to what Fractal has for outbound payloads.  Everything is dependent on the size of the project and the needs 
 of the customer, of course—as is the case here. 
 
