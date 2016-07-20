@@ -1,0 +1,14 @@
+{
+    "name": "andywendt/acta-non-verba",
+    "description": "Deeds, Not Words",
+    "authors": [
+        {
+            "name": "Andy Wendt",
+            "email": "andy@awendt.com"
+        }
+    ],
+    "require": {
+        "beberlei/assert": "^2.5",
+        "symfony/var-dumper": "3.1.*"
+    }
+}
