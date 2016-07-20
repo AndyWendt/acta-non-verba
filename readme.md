@@ -1,24 +1,21 @@
 # Acta Non Verba
 
-## Installation
-
 **Requires PHP 7**
 
-**Note:** I have included assertions as well as variables so that it is easier to validate.  They can be removed if you do 
-not want them.  The assertion and dumping library require a composer installation.
+**Note:** I have included assertions in the code so that it is easier to validate.  I can remove them if you do not want them in the code. 
+The assertion and dumping libraries require a composer installation.
 
  
-
 ## Comments
 
-If I was going to consume an actual API response, I most likely would implement a more reusable system utilizing reverse 
-entity transformers similar to what Fractal has for outbound payloads.  Everything is dependent on the size of the project and the needs of the 
- customer of course--as is the case here. 
+* If I was going to consume an actual API response, I would most likely implement a more reusable system utilizing reverse 
+entity transformers similar to what Fractal has for outbound payloads.  Everything is dependent on the size of the project and the needs 
+of the customer, of course—as is the case here. 
 
-Your provided JSON is invalid so I manually fixed it.  I could write something to automatically fix it but the use case for such a script would be 
-outside of the normal consumption of an API response since it is invalid.  
+* Your provided JSON is invalid so I manually fixed it.  I could write something to automatically fix it but the use case 
+for such a function would be outside of the normal consumption of an API response.  
   
-Technically, your specs said to create "two" variables.  This script creates more than that for greater readability.  It can be refactored 
+* Technically, your specs said to create "two" variables.  This script creates more than that for greater readability.  It can be refactored 
 to "two" variables if that is an actual limit on the number of variables in the script. 
 
 ## Requirements
